@@ -1,15 +1,18 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-
+import T_Index from './views/T_Index.vue'
+import T_login from './views/T_login.vue'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: Home
+      path:'/',
+      component:T_Index,
+    },
+    {
+      path:'/login',
+      component:T_login,
     },
     {
       path: '/about',
