@@ -1,0 +1,96 @@
+body{
+    background-color: #f6f7fb;
+}
+/*******顶部***********/
+.Tiny-head{
+    background-color:orange;
+    height: 60px; 
+    color: #fff;
+    line-height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Tiny-head .Tiny-return{
+    display: inline-block;
+    margin-left:0.8rem;
+}
+.Tiny-head .Tiny-login{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40%;
+}
+/*****************************/
+/*************文本框**********/
+.Tiny-txt{
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+.Tiny-text input,.Tiny-pwd input{
+    border: 0;
+    background-color: #fff;
+    width: 17.8rem;
+    line-height: 35px;
+    margin-left:0.8rem;
+    border-radius: 1px;
+    outline: none;
+}
+.Tiny-txt .Tiny-text{
+    background-color: #fff;
+    height:35px;
+    margin-bottom: 0.8rem;
+    border-radius:1px; 
+    overflow: hidden;
+}
+.Tiny-txt .Tiny-pwd{
+    background-color: #fff;
+    height:35px;
+    border-radius:1px; 
+    overflow: hidden;
+}
+.Tiny-txt .Tiny-text span,.Tiny-pwd span{
+    margin-left: 0.8rem;
+    display: inline-block;
+    height: 35px;
+}
+/*********忘记密码**********/
+.forget {
+    color:#B1B5B4;
+    font-size: 14px;
+    margin-top:0.8rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.8rem;
+}
+/********************************/
+
+/************登录按钮部分******************/
+.Tiny-btn{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-top: 0.8rem;
+    align-items: center;
+    font-size: 14px;
+}
+.Tiny-btn button{
+    width: 20.8rem;
+    height: 30px;
+    background-color: #f6f7fb;
+}
+.Tiny-btn :first-child{
+    margin-bottom: 6%;
+    border:1px solid #BCCE7C;
+    color:#A9C055;   
+}
+.Tiny-btn :last-child{
+    border:1px solid #80BBB1;
+    color: #62C2A8;
+}
+/******************************/
+/*************第三方登录*****************/
