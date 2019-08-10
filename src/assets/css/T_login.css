@@ -4,10 +4,14 @@ body{
 /*******顶部***********/
 .Tiny-head{
     background-color:orange;
+    position:fixed;
+    width: 100%;
+    top:0;
+    left:0;
     height: 60px; 
     color: #fff;
     line-height: 60px;
-    display: flex;
+    display:flex;
     justify-content: flex-start;
     align-items: center;
 }
@@ -19,12 +23,12 @@ body{
     display: inline-block;
     font-size: 20px;
     font-weight: 600;
-    margin-left: 40%;
+    margin-left: 8.8rem;
 }
 /*****************************/
 /*************文本框**********/
 .Tiny-txt{
-    margin-top: 1.8rem;
+    margin-top: 5.8rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -84,7 +88,7 @@ body{
     background-color: #f6f7fb;
 }
 .Tiny-btn :first-child{
-    margin-bottom: 6%;
+    margin-bottom: 1.8rem;
     border:1px solid #BCCE7C;
     color:#A9C055;   
 }
@@ -94,3 +98,50 @@ body{
 }
 /******************************/
 /*************第三方登录*****************/
+.container-Tiny{
+    display: flex;
+    margin-top:0.8rem;
+    justify-content:space-around;
+}
+
+.container-Tiny .third{
+    width: 7rem;
+    border-top: 1px solid #e8e8e8;
+}
+.container-Tiny .third-left{
+    margin-left:0.8rem;
+    margin-top:0.8rem;
+}
+.container-Tiny .third-txt{
+     margin-top:0.5rem; 
+     font-size:12px;
+     color: #D4D5D9;
+}
+.container-Tiny .third-right{
+    margin-right:0.8rem;
+    margin-top:0.8rem;
+}
+.tool-Tiny{
+    display: flex;
+    justify-content:center;
+    margin-top:0.8rem;
+}
+.tool-Tiny img{
+    width: 1.8rem;
+    margin-left:0.8rem;
+    margin-right:0.8rem;
+}
+
+/*******************************/
+/****************底部******************/
+.Tiny-footer{
+    display: flex;
+    justify-content:center;
+    margin-top: 15.8rem;
+    font-size:12px;
+    color: #C1C2C6;
+}
+.Tiny-footer a{
+    color:#9FBC37;
+    text-decoration:none;
+}

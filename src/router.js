@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+//首页
 import T_Index from './views/T_Index.vue'
+//登录
 import T_login from './views/T_login.vue'
+//协议
+import T_agreement from './views/T_agreement.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -13,6 +17,10 @@ export default new Router({
     {
       path:'/login',
       component:T_login,
+    },
+    {
+      path:'/agreement',
+      component:T_agreement,
     },
     {
       path: '/about',
